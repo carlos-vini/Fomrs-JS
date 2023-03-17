@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #111827;
+}
+
+h1{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 75px;
+
+    margin: 80px 0 120px 160px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+}
+
+.form-body{
+    width: 480px;
+    height: 476px;
+    gap: 24px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-body h2{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+input{
+    width: 400px;
+    height: 48px;
+    border: 0;
+    
+    background: rgba(113, 128, 185, 0.32);
+    border-radius: 4px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #7C7C89;
+    padding: 15px;
+    padding-left: 52px;
+}
+
+#email{
+    background-image: url(./IMG/EnvelopeSimple.svg);
+    background-repeat: no-repeat;
+    background-position: 15px;
+}
+
+#password{
+    background-image: url(./IMG/Lock.svg);
+    background-repeat: no-repeat;
+    background-position: 15px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+form button{
+    padding: 12px 16px;
+    border: 0;
+
+    background: #7180B9;
+    border-radius: 4px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+
+    cursor: pointer;
+}
+
+hr{
+    width: 124px;
+}
+
+.github{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.github p{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.github button{
+    width: 244px;
+    height: 48px;
+
+    background: #7180B9;
+    background-image: url(./IMG/GithubLogo.svg);
+    background-repeat: no-repeat;
+    background-position: 58px;
+    border-radius: 4px;
+    border: 0;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+
+    cursor: pointer;
+}
